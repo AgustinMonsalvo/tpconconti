@@ -12,6 +12,8 @@ class TaskView {
                 <th>Modelo</th>
                 <th>Kilometros</th>
                 <th>Asientos</th>
+                <th>Marcas</th>
+
                 
                 
             </tr>
@@ -23,6 +25,7 @@ foreach ($tasks as $viaje) {
             <td>{$viaje->Modelo}</td>
             <td>{$viaje->Kilometros}</td>
              <td>{$viaje->Asientos}</td>
+               <td>{$viaje->marca}</td>
             
 
            

@@ -15,11 +15,8 @@ class TaskController {
     public function showTasks() {
         
         $tasks = $this->model->getTasks();
-        /*
-        $Marcas = $this->model->getAutosConMarcas();
-        */
-
-       
+        
+    
         return $this->view->showTasks($tasks);
     }
 }
